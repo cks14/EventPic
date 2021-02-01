@@ -1,0 +1,50 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/progress_bottom_0"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ProgressBar
+        android:id="@+id/dialog_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="50dp"
+        android:visibility="visible"
+        android:background = "@xml/progress" />
+<!--    <ProgressBar-->
+<!--        android:id="@+id/dialog_progressBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:padding="5dp"-->
+<!--        android:visibility="visible"-->
+<!--        android:indeterminateTintMode="src_in"-->
+<!--        android:indeterminateTint="@color/black"-->
+<!--        style="?android:attr/progressBarStyle"/>-->
+
+
+    <!--    <ProgressBar-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:id="@+id/prgBottom"-->
+<!--        android:padding="5dp"-->
+<!--        android:visibility="visible"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"/>-->
+
+    <TextView
+        android:id="@+id/please_wait"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textColor="@color/black"
+        android:text="Please wait..."/>
+
+</FrameLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/user_popup_round"
+        android:layout_centerInParent="true"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Enter Your User ID"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_user_name1"
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_btn_gray"
+            android:layout_marginLeft="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="20dp"
+            android:weightSum="1"
+            android:layout_height="50dp">
+
+
+            <EditText
+                android:id="@+id/edit_user_name1"
+                style="@style/Widget.AppCompat.EditText.Signup"
+                android:drawableLeft="@drawable/account_outline"
+                android:drawablePadding="10dp"
+                android:hint="@string/user_name"
+                android:singleLine="true" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_user_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_user_name"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="60dp"
+            android:text="Enter User Name"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp14"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_user_name_not_exist1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_user_name"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="60dp"
+            android:text="User Not Exist"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp14"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_apply"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            android:layout_below="@+id/tv_pass_error1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/round_btn_orange">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Apply"
+                android:layout_gravity="center"
+                style="@style/Widget.AppCompat.TextView.Login"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

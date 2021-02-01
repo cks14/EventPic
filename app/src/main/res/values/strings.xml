@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EventPicCollector</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!--Login -->
+    <string name="login">LOGIN YOUR ACCOUNT</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="enter_valid_email">Enter Valid Email ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password1">FORGOT PASSWORD</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_account">Don\'t have an Account?</string>
+    <string name="login_btn">LOGIN</string>
+
+    <!--SignUp -->
+    <string name="registration">Registration</string>
+    <string name="user_name">User Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Enter Number Number</string>
+    <string name="email">Enter Email ID</string>
+    <string name="referral">Referral Code</string>
+    <string name="submit">Submit</string>
+
+    <!--EnterMobile -->
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="valid_mobile">Please Enter Valid Mobile Number</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="new_password">NEW PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="otp">OTP</string>
+    <string name="missmatch_pass">Password and Confirm Password is mismatch</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="enter_cnfrm_password">Enter Confirm Password</string>
+
+    <string name="valid_pass">\u25CF At least one lowercase character (a-z)
+                              \n\u25CF At least one uppercase character (A-Z)
+                              \n\u25CF At least one digit (0-9)
+                              \n\u25CF At least one symbol (? . , ! _ - ~ $ % + =)</string>
+
+    <string name="valid_cnfrm_pass">Confirm Password is not same as Password</string>
+    <string name="enter_otp_number">Enter the 4 Digit one time password received on your</string>
+
+
+</resources>
